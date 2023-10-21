@@ -1,6 +1,6 @@
 'use client';
 import '../app/globals.css'
-// import { BiLogIn } from 'react-icons/bi';
+import { BiLogIn } from 'react-icons/bi';
 
 export default function Login(){
 
@@ -13,7 +13,7 @@ export default function Login(){
                     </span>
 
                     <div>
-                        {/* <BiLogIn size={32} color='#fafafa'/> */}
+                        <BiLogIn size={32} color='#fafafa'/>
                     </div>
                 </div>
             </div>

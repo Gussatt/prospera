@@ -37,3 +37,8 @@ body{
   background: linear-gradient(90.58deg, rgba(255, 255, 255, 0.3) -2.71%, rgba(255, 255, 255, 0.1) 67.1%);
   backdrop-filter: blur(40px);
 }
+
+.bg-simulator{
+  background: url('../public/assets/simulator.jpg') center center no-repeat;
+  @apply bg-cover
+}

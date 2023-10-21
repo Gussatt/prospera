@@ -22,9 +22,10 @@ module.exports = {
         'clamp-text' : 'clamp(1.3rem, 1.7vw, 2rem)',
         'clamp-title': 'clamp(2rem, 3.5vw, 3rem)',
         'img-width': 'clamp(15rem, 15vw, 20rem)',
+        'clamp-headline': 'clamp(2.5rem, 4vw, 3.5rem)',
       },
       backgroundImage:{
-        'neural-bg' : "url('/public/assets/neural-background.jpeg')"
+        'neural-bg' : "url('/public/assets/neural-background.jpeg')",
       },
     },
   },
