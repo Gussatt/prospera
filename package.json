@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@djpfs/react-vlibras": "^2.0.2",
     "@splidejs/react-splide": "^0.7.12",
     "@splidejs/splide-extension-auto-scroll": "^0.5.3",
     "hamburger-react": "^2.5.0",
