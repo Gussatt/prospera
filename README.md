@@ -15,6 +15,7 @@ A Prospera é uma plataforma de investimentos focado em trazer as melhores opç�
 - TailwindCSS
 - Splide-React
 - Hamburger-React
+- VLibras
 - Vscode
 - Live Server
 - Git
