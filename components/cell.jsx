@@ -13,7 +13,7 @@ export default function Cell() {
     <section className="bg-blue flex justify-evenly py-8 mt-24 flex-col md:flex-row">
       <div className="w-8/12 mx-auto flex justify-between flex-col items-center md:flex-row">
         <div className="flex flex-col h-full w-full items-center justify-between md:items-start md:w-3/6">
-          <h3 className="text-clamp-headline text-header text-center md:text-left">
+          <h3 tabIndex={0} className="text-clamp-headline text-header text-center md:text-left">
             Seus {""}
             <strong className="font-bold bg-green hover:bg-transparent transition-all">
               investimentos
@@ -31,6 +31,7 @@ export default function Cell() {
               title="Disponível na"
               text="App Store"
               url={urlApple}
+              aria-label={"Botão da App Store."}
             />
             <AppStore
               className={`mt-4`}
@@ -38,13 +39,14 @@ export default function Cell() {
               title="Disponível na"
               text="Play Store"
               url={APKUrl}
+              aria-label={"Botão da Play Store."}
             />
           </div>
         </div>
-        <div className="w-4/6 flex mt-8 flex-col items-center justify-end md:mt-0 md:w-3/12 md:h-full lg:h-[40vw]">
+        <div className="w-4/6 flex mt-8 flex-col items-center justify-end md:mt-0 md:w-4/12 md:h-full lg:h-[40vw]">
           <Image
             src={ImageHand}
-            alt="Mão de pele preta segurando um celular com o site"
+            alt="Celular com background da página "
             className="w-full h-full"
           />
         </div>

@@ -3,7 +3,7 @@ export default function Simulator() {
     <section className={`bg-simulator mt-12 h-screen w-full bg-fixed`}>
       <div className="mx-auto flex h-full w-11/12 md:ml-[4.1%] md:w-2/4">
         <div className="flex w-full flex-col items-center justify-evenly md:items-start">
-          <h3 className="text-center text-clamp-headline font-bold text-header md:text-left">
+          <h3 tabIndex={0} className="text-center text-clamp-headline font-bold text-header md:text-left">
             Venha e{" "}
             <strong className="bg-green transition-all hover:bg-transparent">
               {" "}
@@ -11,7 +11,7 @@ export default function Simulator() {
             </strong>
           </h3>
 
-          <button className="w-3/4 rounded-xl border-4 border-solid border-header bg-transparent p-4 transition-all hover:bg-green">
+          <button tabIndex={0} className="w-3/4 rounded-xl border-4 border-solid border-header bg-transparent p-4 transition-all hover:bg-green">
             <strong className="text-clamp-title font-bold text-header">
               Clique aqui
             </strong>

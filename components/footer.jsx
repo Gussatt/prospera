@@ -19,25 +19,25 @@ export default function Footer() {
           />
         </a>
 
-        <h4 className="mt-4 text-clamp-text text-header">
+        <h4 tabIndex={0} className="mt-4 text-clamp-text text-header">
           Assine nossa {""}
           <strong className="bg-green transition-all hover:bg-transparent">
             newsletter!
           </strong>
         </h4>
 
-        <div className="mt-4 w-10/12 lg:mt-0">
-          <input
+        <div tabIndex={0} className="mt-4 w-10/12 lg:mt-0">
+          <input tabIndex={0}
             placeholder="Insira seu e-mail"
             className="w-8/12 rounded-es-xl rounded-ss-xl border-2 border-r-0 border-header bg-transparent py-4 pl-2 pr-8 font-bold text-header"
           />
-          <button className="w-4/12 rounded-ee-xl rounded-se-xl border-2 border-header p-4 text-header transition-all hover:bg-green">
+          <button tabIndex={0} className="w-4/12 rounded-ee-xl rounded-se-xl border-2 border-header p-4 text-header transition-all hover:bg-green">
             Envie
           </button>
         </div>
       </section>
 
-      <section className="mt-8 flex flex-col items-center justify-between lg:mt-0 lg:w-1/3">
+      <section tabIndex={0} className="mt-8 flex flex-col items-center justify-between lg:mt-0 lg:w-1/3">
         <h4 className="text-clamp-title font-bold text-header ">
           Baixe o{" "}
           <strong className="bg-green transition-all hover:bg-transparent">
@@ -64,7 +64,7 @@ export default function Footer() {
       </section>
 
       <section className="mt-8 flex flex-col items-center justify-between lg:mt-0 lg:w-1/3">
-        <h4 className="w-full text-center text-clamp-title font-bold text-header">
+        <h4 tabIndex={0} className="w-full text-center text-clamp-title font-bold text-header">
           <strong className="w-full bg-green transition-all hover:bg-transparent">
             Acompanhe-nos
           </strong>

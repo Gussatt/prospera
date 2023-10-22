@@ -89,13 +89,16 @@ export default function Header() {
         </ul>
       </div>
 
-      <div className="lg:hidden">
+      <div tabIndex={0} className="lg:hidden">
         <Hamburger
           color="#fafafa"
           size={32}
-          label="Show menu"
+          label="Abrir menu"
           toggled={isOpen}
           toggle={setOpen}
+          aria-haspopup="true"
+          aria-controls="menu"
+          aria-expanded="false"
         />
       </div>
     </header>

@@ -3,9 +3,9 @@ import Image from 'next/image';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css/skyblue';
 import Slide from './slide';
-import ImageCar from '../../public/assets/neural-background.jpeg'
-import ImageCar1 from '../../public/assets/mao-chart.jpg'
-import ImageCar2 from '../../public/assets/forex.jpg'
+import ImageCar from '../../public/assets/neural-bg.jpg'
+import ImageCar1 from '../../public/assets/chart-bg.jpg'
+import ImageCar2 from '../../public/assets/chart-bg1.jpg'
 
 export default function Carousel() {
   return (
@@ -21,7 +21,7 @@ export default function Carousel() {
             wheel: false,
             releaseWheel: true,
         } 
-        } aria-label="React Splide Example">
+        } aria-label="Três slides com imagem de background e botão para criar sua conta!">
       <SplideSlide>
         <Slide 
           img={ImageCar}
