@@ -22,8 +22,6 @@ export default function RootLayout({ children }) {
           src="../pubic/multislider/multislider.min.js"
           strategy="afterInteractive"
         />
-        <Script src="https://vlibras.gov.br/app/vlibras-plugin.js" />
-		<Script src="../public/assets/js/vlibras.js" />
       </body>
     </html>
   );

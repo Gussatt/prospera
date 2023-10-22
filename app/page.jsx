@@ -6,7 +6,6 @@ import Intro from '@/components/intro';
 import Cell from '@/components/cell';
 import Simulator from '@/components/simulator';
 import CarouselAuto from '@/components/carousel/carouselauto';
-import Sim from './sim';
 import Footer from '@/components/footer';
 import VLibras from '@djpfs/react-vlibras';
 
@@ -17,11 +16,10 @@ export default function Home() {
       <Header/>
       <Carousel/>
       <main>
-        <Intro/>
+        {/* <Intro/>
         <Cell/>
-        <Simulator/>
+        <Simulator/> */}
         <CarouselAuto/>
-        {/* <Sim/> */}
       </main>
       <VLibras forceOnload={true}/>
       <Footer />

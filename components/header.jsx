@@ -55,12 +55,12 @@ export default function Header() {
         >
           <li className="text-center mt-8 mb-2 mr-0 lg:mt-0 lg:ml-16 lg:mr-4 lg:mb-0">
             <span className="text-clamp-text font-bold text-header hover:bg-green transition-all">
-              <a href="#">Início</a>
+              <Link href="/">Início</Link>
             </span>
           </li>
           <li className="text-center mb-2 mr-0 lg:mr-4 lg:mb-0">
             <span className="text-clamp-text font-bold text-header hover:bg-green transition-all ">
-              <a href="#">Simulador</a>
+              <Link href="/sim"> Simulador </Link>
             </span>
           </li>
           <li className="text-center mb-2 mr-0 lg:mr-4 lg:mb-0">

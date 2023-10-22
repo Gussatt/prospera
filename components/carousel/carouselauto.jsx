@@ -10,6 +10,7 @@ import Car5 from "../../public/assets/carousel/car5.jpg";
 import Car6 from "../../public/assets/carousel/car6.jpg";
 import Car7 from "../../public/assets/carousel/car7.jpg";
 import Car8 from "../../public/assets/carousel/car8.jpg";
+import SlideAuto from "./slideauto";
 
 export default function carouselAuto() {
   return (
@@ -36,7 +37,10 @@ export default function carouselAuto() {
           aria-label="React Splide Example"
         >
           <SplideSlide className="overflow-hidden rounded-xl">
-            <Image src={Car1} className="h-[40vh] w-full md:h-[50vh]" />
+            <SlideAuto 
+              img={Car1}
+              text={'Caralho, vem comigo porra'}
+            />
           </SplideSlide>
           <SplideSlide className="overflow-hidden rounded-xl">
             <Image src={Car2} className="h-[40vh] w-full md:h-[50vh]" />

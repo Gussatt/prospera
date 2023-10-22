@@ -11,13 +11,13 @@ export default function Cell() {
   const APKUrl = "https://play.google.com/store/apps/details?id=host";
   return (
     <section className="bg-blue flex justify-evenly py-8 mt-24 flex-col md:flex-row">
-      <div className="w-11/12 mx-auto flex justify-between flex-col items-center md:flex-row">
+      <div className="w-8/12 mx-auto flex justify-between flex-col items-center md:flex-row">
         <div className="flex flex-col h-full w-full items-center justify-between md:items-start md:w-3/6">
           <h3 className="text-clamp-headline text-header text-center md:text-left">
             Seus {""}
             <strong className="font-bold bg-green hover:bg-transparent transition-all">
-              investimentos {""}
-            </strong>
+              investimentos
+            </strong> {""}
             no seu bolso {""}
             <strong className="font-bold bg-green hover:bg-transparent transition-all">
               o tempo todo

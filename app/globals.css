@@ -42,3 +42,8 @@ body{
   background: url('../public/assets/simulator.jpg') center center no-repeat;
   @apply bg-cover
 }
+
+.bg-gradient{
+  background: rgb(9,9,9);
+  background: linear-gradient(90deg, rgba(9,9,9,1) 0%, rgba(250,250,250,0) 50%); 
+}
