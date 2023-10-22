@@ -2,15 +2,8 @@
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
 import Image from "next/image";
-import Car1 from "../../public/assets/carousel/car1.jpg";
-import Car2 from "../../public/assets/carousel/car2.jpg";
-import Car3 from "../../public/assets/carousel/car3.jpg";
-import Car4 from "../../public/assets/carousel/car4.jpg";
-import Car5 from "../../public/assets/carousel/car5.jpg";
-import Car6 from "../../public/assets/carousel/car6.jpg";
-import Car7 from "../../public/assets/carousel/car7.jpg";
-import Car8 from "../../public/assets/carousel/car8.jpg";
 import SlideAuto from "./slideauto";
+import Slide from "./slide";
 
 export default function carouselAuto() {
   return (
@@ -25,11 +18,25 @@ export default function carouselAuto() {
             drag: "free",
             arrows: false,
             pagination: false,
+            breakpoints: {
+              1024: {
+                perPage: 3,
+               
+              },
+              767: {
+                perPage: 2,
+            
+              },
+              640: {
+                perPage: 1,
+          
+              },
+            },
             autoScroll: {
               pauseOnHover: true,
               pauseOnFocus: false,
               rewind: false,
-              speed: 1,
+              speed: .7,
             },
           }}
           // className="mt-12"
@@ -37,19 +44,16 @@ export default function carouselAuto() {
           aria-label="React Splide Example"
         >
           <SplideSlide className="overflow-hidden rounded-xl">
-            <SlideAuto 
-              img={Car1}
-              text={'Caralho, vem comigo porra'}
-            />
+            <SlideAuto id={1} />
           </SplideSlide>
           <SplideSlide className="overflow-hidden rounded-xl">
-            <Image src={Car2} className="h-[40vh] w-full md:h-[50vh]" />
+            <SlideAuto id={2} />
           </SplideSlide>
           <SplideSlide className="overflow-hidden rounded-xl">
-            <Image src={Car3} className="h-[40vh] w-full md:h-[50vh]" />
+            <SlideAuto id={3} />
           </SplideSlide>
           <SplideSlide className="overflow-hidden rounded-xl">
-            <Image src={Car4} className="h-[40vh] w-full md:h-[50vh]" />
+            <SlideAuto id={4} />
           </SplideSlide>
         </Splide>
       </div>
@@ -64,28 +68,41 @@ export default function carouselAuto() {
             drag: "free",
             arrows: false,
             pagination: false,
+            breakpoints: {
+              1024: {
+                perPage: 3,
+               
+              },
+              767: {
+                perPage: 2,
+            
+              },
+              640: {
+                perPage: 1,
+          
+              },
+            },
             autoScroll: {
               pauseOnHover: true,
               pauseOnFocus: false,
               rewind: false,
-              speed: 1,
+              speed: .7,
             },
           }}
-          // className="mt-12"
           extensions={{ AutoScroll }}
           aria-label="React Splide Example"
         >
           <SplideSlide className="overflow-hidden rounded-xl">
-            <Image src={Car5} className="h-[40vh] w-full md:h-[50vh]" />
+            <SlideAuto id={5} />
           </SplideSlide>
           <SplideSlide className="overflow-hidden rounded-xl">
-            <Image src={Car6} className="h-[40vh] w-full md:h-[50vh]" />
+            <SlideAuto id={6} />
           </SplideSlide>
           <SplideSlide className="overflow-hidden rounded-xl">
-            <Image src={Car7} className="h-[40vh] w-full md:h-[50vh]" />
+            <SlideAuto id={7} />
           </SplideSlide>
           <SplideSlide className="overflow-hidden rounded-xl">
-            <Image src={Car8} className="h-[40vh] w-full md:h-[50vh]" />
+            <SlideAuto id={8} />
           </SplideSlide>
         </Splide>
       </div>
