@@ -16,9 +16,9 @@ export default function Home() {
       <Header />
       <Carousel />
       <main>
-        {/* <Intro/>
+        <Intro/>
         <Cell/>
-        <Simulator/> */}
+        <Simulator/>
         <CarouselAuto />
       </main>
       <VLibras forceOnload={true} />

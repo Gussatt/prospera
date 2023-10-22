@@ -1,9 +1,7 @@
 "use-client";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
-import Image from "next/image";
 import SlideAuto from "./slideauto";
-import Slide from "./slide";
 
 export default function carouselAuto() {
   return (
