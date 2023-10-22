@@ -24,7 +24,7 @@ Este projeto foi proposto para o estudo de páginas de Fintechs e a criação de
 - Live Server
 - Git
 
-[Figma do Projeto]([https://figma.com/](https://www.figma.com/file/H5jbzgCOeXMh5AgYwkFZbV/UC3---Prospera?type=design&node-id=0-1&mode=design&t=wbFWNyMmeO7EH89z-0))
+[Figma do Projeto](https://figma.com/](https://www.figma.com/file/H5jbzgCOeXMh5AgYwkFZbV/UC3---Prospera?type=design&node-id=0-1&mode=design&t=wbFWNyMmeO7EH89z-0)
 
 ## :computer: Rodando o Projeto
 
