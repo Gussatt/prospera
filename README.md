@@ -1,10 +1,14 @@
 # Prospera
 
-![Print da renderização do site](./prospera-print.jpg)
-
 A Prospera é uma plataforma de investimentos focado em trazer as melhores opções para o nosso cliente.
 
+![Print da renderização do site](./prospera-print.jpg)
+
 [Acesse o projeto em produção](prospera-investments.vercel.app/)
+
+## :closed_book: Proposta do curso
+
+Este projeto foi proposto para o estudo de páginas de Fintechs e a criação de uma. Graças ao Instituto PROA e à Debora Paixão, nossa mentora!
 
 ## :man_mechanic: Linguagens e Ferramentas
 
