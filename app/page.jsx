@@ -8,7 +8,6 @@ import Simulator from "@/components/simulator";
 import CarouselAuto from "@/components/carousel/carouselauto";
 import Footer from "@/components/footer";
 import VLibras from "@djpfs/react-vlibras";
-import SlideAuto from "@/components/carousel/slideauto";
 
 export default function Home() {
   return (
